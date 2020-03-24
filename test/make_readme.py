@@ -27,7 +27,7 @@ dic_en_zh = {
     "monkey patch": "猴子补丁",
     "coroutines": "协程",
     "duck type": "鸭子类型",
-    "coroutines async": "async生成器"
+    "coroutines async": "async协程"
 }
 lan = dic_en_en
 file_list = ["", ""]
