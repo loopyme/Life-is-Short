@@ -1,4 +1,3 @@
-def main():
-    from Word import word_list
+word_list = ['Life', 'is', 'short']
 
-    print(' '.join(word_list))
+print(' '.join(word_list))

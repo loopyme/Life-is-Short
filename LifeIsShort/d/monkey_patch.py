@@ -1,4 +1,4 @@
-from Word import word_list
+word_list = ['Life', 'is', 'short']
 
 
 def main():
@@ -8,6 +8,5 @@ def main():
     for w in word_list:
         print(w)
 
-
-if __name__ == '__main__':
-    main()
+    print = buildin_print
+# See ..test.run_test.get_StringIO

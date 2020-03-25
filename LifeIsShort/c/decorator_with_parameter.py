@@ -1,18 +1,20 @@
-def main():
-    from Word import words
+words = 'Life is short'
 
-    def print_before(text):
-        def decorator(func):
-            def wrapper(*args, **kw):
-                print(text)
-                return func(*args, **kw)
 
-            return wrapper
+def print_before(text):
+    def decorator(func):
+        def wrapper(*args, **kw):
+            print(text)
+            return func(*args, **kw)
 
-        return decorator
+        return wrapper
 
-    @print_before(words)
-    def foo():
-        pass
+    return decorator
 
-    foo()
+
+@print_before(words)
+def foo():
+    pass
+
+
+foo()

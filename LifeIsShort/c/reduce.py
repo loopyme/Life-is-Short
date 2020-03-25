@@ -1,7 +1,5 @@
 from functools import reduce
 
+word_list = ['Life', 'is', 'short']
 
-def main():
-    from Word import word_list
-
-    print(reduce(lambda x, y: x + " " + y, word_list))
+print(reduce(lambda x, y: x + " " + y, word_list))

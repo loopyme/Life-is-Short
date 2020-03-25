@@ -1,9 +1,8 @@
-def main():
-    from Word import word_list
+word_list = ['Life', 'is', 'short']
 
-    it = iter(word_list)
-    while True:
-        try:
-            print(next(it), end=' ')
-        except StopIteration:
-            break
+it = iter(word_list)
+while True:
+    try:
+        print(next(it), end=' ')
+    except StopIteration:
+        break

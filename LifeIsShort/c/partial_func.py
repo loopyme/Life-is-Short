@@ -1,9 +1,7 @@
 from functools import partial
 
+word_list = ['Life', 'is', 'short']
 
-def main():
-    from Word import word_list
-
-    print_word = partial(print, end=" ")
-    for w in word_list:
-        print_word(w)
+print_word = partial(print, end=" ")
+for w in word_list:
+    print_word(w)

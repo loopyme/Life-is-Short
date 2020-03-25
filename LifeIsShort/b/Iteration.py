@@ -1,5 +1,4 @@
-def main():
-    from Word import word_list
+word_list = ['Life', 'is', 'short']
 
-    for _, w in enumerate(word_list):
-        print(w, end=" ")
+for _, w in enumerate(word_list):
+    print(w, end=" ")
