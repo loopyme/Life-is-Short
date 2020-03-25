@@ -10,10 +10,10 @@ This is a project for python learners, which aim is to demonstrate or practice s
 
 ## Examples
 <!-- Example:DO NOT MODIFY THIS! -->
-||||||||||||
-|---|---|---|---|---|---|---|---|---|---|---|
+|||||||||
+|---|---|---|---|---|---|---|---|
 |a|[format](./LifeIsShort/a/format_.py)|[list](./LifeIsShort/a/list_.py)|[if](./LifeIsShort/a/if_.py)|[print](./LifeIsShort/a/print_.py)|[set](./LifeIsShort/a/set_.py)|[sort](./LifeIsShort/a/sort_.py)|
-|b|[Iteration](./LifeIsShort/b/Iteration.py)|[list comprehensiion](LifeIsShort/b/list_comprehension.py)|[lambda](./LifeIsShort/b/lambda_.py)|[iterator](./LifeIsShort/b/iterator.py)|[recursion](./LifeIsShort/b/recursion.py)|[filter](./LifeIsShort/b/filter_.py)|[map](./LifeIsShort/b/map_.py)|
+|b|[list comprehension](./LifeIsShort/b/list_comprehension.py)|[Iteration](./LifeIsShort/b/Iteration.py)|[lambda](./LifeIsShort/b/lambda_.py)|[iterator](./LifeIsShort/b/iterator.py)|[recursion](./LifeIsShort/b/recursion.py)|[filter](./LifeIsShort/b/filter_.py)|[map](./LifeIsShort/b/map_.py)|
 |c|[reduce](./LifeIsShort/c/reduce.py)|[generator](./LifeIsShort/c/generator.py)|[eval](./LifeIsShort/c/eval_.py)|[decorator with parameter](./LifeIsShort/c/decorator_with_parameter.py)|[decorator](./LifeIsShort/c/decorator.py)|[func as return](./LifeIsShort/c/func_as_return.py)|[partial func](./LifeIsShort/c/partial_func.py)|
 |d|[contextor](./LifeIsShort/d/contextor.py)|[generator yield](./LifeIsShort/d/generator_yield.py)|[monkey patch](./LifeIsShort/d/monkey_patch.py)|[process pool](./LifeIsShort/d/process_pool.py)|[coroutines](./LifeIsShort/d/coroutines.py)|[duck type](./LifeIsShort/d/duck_type.py)|[coroutines async](./LifeIsShort/d/coroutines_async.py)|
 <!-- DO NOT MODIFY THIS! -->

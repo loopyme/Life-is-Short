@@ -51,7 +51,7 @@ def make_table(language_dic):
             dir_files += f"[{title}](./LifeIsShort/{dir}/{file})|"
         max_example_count = max(i, max_example_count)
         lines.append(dir_files)
-    max_example_count += 4
+    max_example_count += 1
     lines[0] = "|" + '|' * max_example_count
     lines[1] = '|---' * max_example_count + '|'
 
@@ -69,3 +69,7 @@ def update_readme():
             f.write(re.sub(r"<!-- Example:DO NOT MODIFY THIS! -->(.|\n)+<!-- DO NOT MODIFY THIS! -->",
                            f"<!-- Example:DO NOT MODIFY THIS! -->\n{example_table}\n<!-- DO NOT MODIFY THIS! -->",
                            content))
+    print(f"Update readme in {len(tasks)} files")
+
+
+update_readme()

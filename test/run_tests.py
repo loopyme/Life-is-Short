@@ -2,8 +2,6 @@ import io
 import sys
 import unittest
 
-from test.update_readme import update_readme
-
 
 class MyTestCase(unittest.TestCase):
     manually_test_method = ['process_pool']
@@ -62,4 +60,3 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    update_readme()
