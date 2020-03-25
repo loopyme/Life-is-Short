@@ -3,9 +3,10 @@ word_list = ['Life', 'is', 'short']
 
 def get_word():
     for w in word_list:
+        print(w, end=" ")
         yield w
 
 
 def main():
-    for w in get_word():
-        print(w, end=" ")
+    for _ in get_word():
+        pass
