@@ -1,4 +1,4 @@
-word_list = ['Life', 'is', 'short']
+word_list = ["Life", "is", "short"]
 
 
 def print_a_word(word_list):

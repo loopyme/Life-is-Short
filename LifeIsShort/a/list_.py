@@ -1,3 +1,3 @@
-word_list = ['Life', 'is', 'short']
+word_list = ["Life", "is", "short"]
 
-print(' '.join(word_list))
+print(" ".join(word_list))

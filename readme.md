@@ -33,4 +33,4 @@ Each of the examples above are:
 
 ## Contributing
 
-Any forms of contributing is welcomed.
+Any form of contributing is welcomed.

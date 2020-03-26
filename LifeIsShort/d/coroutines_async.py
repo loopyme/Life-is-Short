@@ -1,6 +1,6 @@
 import asyncio
 
-word_list = ['Life', 'is', 'short']
+word_list = ["Life", "is", "short"]
 
 
 async def print_task():

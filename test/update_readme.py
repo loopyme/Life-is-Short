@@ -30,6 +30,7 @@ dic_zh = {
     "duck type": "鸭子类型",
     "coroutines async": "async协程",
     "process pool": "线程池",
+    "callback":"回调",
 }
 
 

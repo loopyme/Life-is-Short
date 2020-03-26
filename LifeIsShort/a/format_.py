@@ -1,2 +1,2 @@
 life = "Life"
-print(f'{life} is short')
+print(f"{life} is short")

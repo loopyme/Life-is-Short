@@ -1,6 +1,6 @@
 from functools import partial
 
-word_list = ['Life', 'is', 'short']
+word_list = ["Life", "is", "short"]
 
 print_word = partial(print, end=" ")
 for w in word_list:

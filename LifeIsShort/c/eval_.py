@@ -1,3 +1,3 @@
-words = 'Life is short'
+words = "Life is short"
 
 eval("print")(words)

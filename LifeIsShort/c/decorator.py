@@ -1,4 +1,4 @@
-words = 'Life is short'
+words = "Life is short"
 
 
 def print_before(func):

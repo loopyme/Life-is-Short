@@ -2,7 +2,7 @@ from multiprocessing import Pool, Manager
 
 
 def get_word(que):
-    word_list = ['Life', 'is', 'short']
+    word_list = ["Life", "is", "short"]
     for word in word_list:
         que.put(word)
 
